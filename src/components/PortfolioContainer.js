@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import Footer from './Footer';
 import Home from './Pages/Home';
 import AboutMe from './Pages/AboutMe';
 import Portfolio from './Pages/Portfolio';
@@ -32,11 +31,11 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+    
+        <div style={{
+            backgroundColor:"#F3EEE8"}}>
 
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange}  />
-
-            {/* <Footer currentPage={currentPage} /> */}
             {renderPage()}
 
         </div>

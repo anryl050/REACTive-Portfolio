@@ -1,22 +1,38 @@
 import React from 'react';
+import Lottie from 'lottie-react'
+import animationData from './lotties/aLogo.json';
 
 
 export default function Home() {
+
+  const lottieStyles = {
+    height: '90%',
+    width: '40%',
+    margin: '0',
+  };
+
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div style={{
+      height: "screen",
+      backgroundSize: 'cover',
+      backgroundImage: `url(${require('./images/portrait.jpg')})`,
+      backgroundAttachment: 'fixed',  // Fix the background image
+      backgroundPosition: 'center',   // Center the background image
+    }}>
+     <section className="place-content-center h-screen">
+        <div className='flex flex-wrap justify-start py-40 gap-5'>
+          <div className="flex-col justify-start w-50 md:w-16 sm:w-16 mx-10 px-2 py-5 ">
+            <p className="flex justify-center font-bold font-sans xl:text-5xl text-slate-800 md:text-3xl sm:text-lg ">ANASTASIYA RYLOVA</p>
+            <p className="flex justify-center font-bold font-sans xl:text-4xl text-slate-800 md:text-2xl sm:text-md ">FULL STACK WEB DEVELOPER</p>
+            <div className="flex justify-center py-1 gap-10"> {/* Add 'justify-center' class to center the Lottie file */}
+              <Lottie
+                animationData={animationData}
+                style={lottieStyles}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

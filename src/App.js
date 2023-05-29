@@ -25,17 +25,18 @@
 // export default App;
 
 import React from "react";
-import { StrictMode } from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Footer from "./components/Footer";
+import './index.css';
+
+
 // import Header from "./components/Header";
 
-// const App = () => <PortfolioContainer />;
-
 function App() {
+
     return (
-        <>
-            <PortfolioContainer />;
+       <>
+            <PortfolioContainer />
             <Footer />
         </>
     );

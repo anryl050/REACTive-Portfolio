@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutMe() {
     return (
-        <div>
+        <section className = "place-content-center pt-40 pb-40">
             <h1>About Page</h1>
 
                 <p>My story starts in a small southwestern town in the former Soviet Union. At a young age, my family immigrated to the United States and settled in Wichita, KS.</p>
@@ -20,6 +20,6 @@ export default function AboutMe() {
             
                 <p>I joined the Full Stack Application Development Bootcamp to advance my knowledge and career beyond what it is now, and so far, it has been an absolute blast and a great challenge. At the end of the bootcamp, newly gained skills will go towards transitioning out of a medical field-type career and towards something new and more interesting, as well as more flexible where I will be able to work and travel more freely. </p>
             
-        </div>
+        </section>
     );
 }

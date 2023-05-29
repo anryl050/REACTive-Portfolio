@@ -7,20 +7,20 @@ import {
   faFacebook,
 } from '@fortawesome/free-brands-svg-icons';
 
-
 function Footer() {
     // const [showNav, setShowNav] = useState(false);
   
     return (
-      <div className="footer">
+      <div className="footer fixed bottom-0 z-30 w-full columns-1 bg-slate-800 flex items-center justify-center space-x-11">
         <a
             href="https://www.linkedin.com"
             target="_blank"
             rel="noreferrer"
+            className="px-2 py-1"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              color="#4d4d4e"
+              color="#F3EEE8"
               className="anchor-icon"
             />
           </a>
@@ -29,10 +29,11 @@ function Footer() {
             href="https://github.com/anryl050"
             target="_blank"
             rel="noreferrer"
+            className="px-2 py-1"
           >
             <FontAwesomeIcon
               icon={faGithub}
-              color="#4d4d4e"
+              color="#F3EEE8"
               className="anchor-icon"
             />
           </a>
@@ -41,10 +42,11 @@ function Footer() {
             href="https://www.facebook.com"
             rel="noreferrer"
             target="_blank"
+            className="px-2 py-1"
           >
             <FontAwesomeIcon
               icon={faFacebook}
-              color="#4d4d4e"
+              color="#F3EEE8"
               className="anchor-icon"
             />
           </a>
@@ -54,3 +56,4 @@ function Footer() {
   
   export default Footer;
   
+
