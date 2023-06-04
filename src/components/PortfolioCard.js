@@ -1,11 +1,15 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+    faGithub,
+} from '@fortawesome/free-brands-svg-icons';
 
 function PortfolioCard({ project }) {
-    const { title, img, url, description } = project
+    const { title, img, url, link, description } = project
     return (
 
-        <div className=" group hover:bg-sky-500 hover:ring-sky-500 max-w-md mx-auto bg-slate-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-            <div className="md:flex lg:flex ">
+        <div className=" group hover:bg-sky-700 hover:ring-sky-700 max-w-md mx-auto bg-slate-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div className="md:flex lg:flex gap-2">
                 <div className="md:shrink-0 border-single border-4 rounded-md group-hover:text-slate-800 items-center m-1" style={{ color: "#F3EEE8" }}>
                     <img
                         alt={title}
@@ -21,7 +25,16 @@ function PortfolioCard({ project }) {
                         <div className="mt-2" style={{ color: "#F3EEE8" }}>
                             {description}
                         </div>
-                    </div>
+                     </div>
+                    <div className="mt-2">
+                    <a href={link} style={{ color: "#F3EEE8" }} className="hover:bg-slate-800 hover:rounded-md hover:p-2">
+                            <FontAwesomeIcon
+                                icon={faGithub}
+                                color="#F3EEE8"
+                                className="anchor-icon"
+                            />
+                            </a>
+                        </div>
                 </div>
 
             </div>

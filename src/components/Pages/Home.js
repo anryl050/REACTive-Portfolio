@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'lottie-react';
-import animationData from './lotties/aLogo.json';
+import animationData from '../assets/lotties/aLogo.json';
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
     <div style={{
       height: "screen",
       backgroundSize: 'cover',
-      backgroundImage: `url(${require('./images/portrait.jpg')})`,
+      backgroundImage: `url(${require('../assets/images/portrait.jpg')})`,
       backgroundAttachment: 'fixed',  // Fix the background image
       backgroundPosition: 'center',   // Center the background image
     }}>
