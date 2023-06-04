@@ -59,7 +59,7 @@ export default function Portfolio() {
     ]
 
     return (
-        <section className="place-content-center h-full py-20">
+        <section className="place-content-center h-screen py-20">
                 <h1 className="flex flex-wrap justify-center pb-6">Portfolio</h1>
             <div className="grid gap-4 lg:grid-cols-2 md:grid-cols-1">
                 {projects.map(project => {
