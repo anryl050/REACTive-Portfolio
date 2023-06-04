@@ -4,13 +4,14 @@
 # REACTive-Portfolio v2.0
 
 ## Table of Content
-#### * [Project Desctiption](#description)
+#### * [Project Description](#description)
 #### * [Additional Requirement](#requirements)
 #### * [Deployed Application](#application)
 #### * [Demo Video](#video)
 #### * [Installation/Technical Requirements](#installation)
 #### * [Usage](#usage)
 #### * [Tests](#tests)
+#### * [Contribution](#contribution)
 #### * [License](#license)
 
 
@@ -47,23 +48,28 @@ For each project in the Portfolio section must include the following:
 - A link to the corresponding GitHub repository
 
 ## Deployed Application
-Link to the deployed application: [Anastasiya's Portfolio](https://choosealicense.com/licenses/mit/)
+Link to the deployed application: [Anastasiya's Portfolio](https://anryl050.github.io/REACTive-Portfolio/)
 
 ### View of the Application Pages
 
 #### Home Page
+![Home Page](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/d0c54f30-af07-42a5-9d68-bca907bbbb21)
 
 
 #### About Me Page
+![About Me](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/01523537-7566-4252-bff9-349c1b640d9e)
 
 
 #### Portfolio Page
+![Portfolio](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/0b0c87f3-c646-41a6-8c7f-741e8c44e09d)
 
 
 #### Contact Me Page
+![Contact Me](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/b87861cc-57fc-460a-89fb-c2b716e59fb5)
 
 
 #### Resume Page 
+![Resume](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/4c2ce9ae-9c47-4d25-805b-cc5e85d1e2cd)
 
 
 
