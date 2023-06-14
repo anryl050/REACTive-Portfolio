@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/REACTive-Portfolio/static/css/main.fca85e64.css",
-    "main.js": "/REACTive-Portfolio/static/js/main.5e16de8e.js",
+    "main.js": "/REACTive-Portfolio/static/js/main.8828a896.js",
     "static/js/496.9642b06f.chunk.js": "/REACTive-Portfolio/static/js/496.9642b06f.chunk.js",
     "static/media/portrait.jpg": "/REACTive-Portfolio/static/media/portrait.038e147f7412d492a3a1.jpg",
+    "static/media/shifa.png": "/REACTive-Portfolio/static/media/shifa.1287def61e30fe75d364.png",
     "static/media/EventDash.png": "/REACTive-Portfolio/static/media/EventDash.44e0d85517836df7093d.png",
     "static/media/socially-netwroking.png": "/REACTive-Portfolio/static/media/socially-netwroking.b690c77a4fd8e12dcd81.png",
     "static/media/Tech-Blogger.png": "/REACTive-Portfolio/static/media/Tech-Blogger.08aa2b3fc731e1f9e5ac.png",
@@ -11,11 +12,11 @@
     "static/media/CucumberOrPickle.jpg": "/REACTive-Portfolio/static/media/CucumberOrPickle.e405f68c30e705f4caef.jpg",
     "index.html": "/REACTive-Portfolio/index.html",
     "main.fca85e64.css.map": "/REACTive-Portfolio/static/css/main.fca85e64.css.map",
-    "main.5e16de8e.js.map": "/REACTive-Portfolio/static/js/main.5e16de8e.js.map",
+    "main.8828a896.js.map": "/REACTive-Portfolio/static/js/main.8828a896.js.map",
     "496.9642b06f.chunk.js.map": "/REACTive-Portfolio/static/js/496.9642b06f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fca85e64.css",
-    "static/js/main.5e16de8e.js"
+    "static/js/main.8828a896.js"
   ]
 }
