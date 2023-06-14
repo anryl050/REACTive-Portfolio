@@ -5,7 +5,7 @@ import Image1 from '../assets/images/CucumberOrPickle.jpg';
 import Image2 from '../assets/images/Tech-Blogger.png';
 import Image3 from '../assets/images/socially-netwroking.png';
 import Image4 from '../assets/images/Make-me-a-logo-1.png';
-import Image5 from '../assets/images/coming-soon.jpg';
+import Image5 from '../assets/images/shifa.png';
 
 
 
@@ -51,8 +51,8 @@ export default function Portfolio() {
         {
             title: "Shifa",
             img: Image5,
-            url: "/",
-            description: "Place Holder for the upcoming Project 3. Preoject will demostrate effective use of the ReactJS, MERN concept, use of the Appollo and Mongo DB.",
+            url: "https://shifa-wecare.herokuapp.com/",
+            description: "At our non-profit doctor's office, our mission is to provide compassionate, accessible, and high-quality healthcare services to individuals in need, regardless of their socioeconomic status.",
             link:"https://github.com/caseyfee/Shifa"
         },
 
