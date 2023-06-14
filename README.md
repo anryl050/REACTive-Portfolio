@@ -4,13 +4,14 @@
 # REACTive-Portfolio v2.0
 
 ## Table of Content
-#### * [Project Desctiption](#description)
+#### * [Project Description](#description)
 #### * [Additional Requirement](#requirements)
 #### * [Deployed Application](#application)
 #### * [Demo Video](#video)
 #### * [Installation/Technical Requirements](#installation)
 #### * [Usage](#usage)
 #### * [Tests](#tests)
+#### * [Contribution](#contribution)
 #### * [License](#license)
 
 
@@ -39,29 +40,56 @@ GIVEN a single-page application portfolio for a web developer:
 - WHEN I am presented with the Resume section, THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 - WHEN I view the footer, THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-
 ## Additional Requirements
-
+For each project in the Portfolio section must include the following:
+- An image of the deployed application (either a short animated GIF or screenshot)
+- The title of the project
+- A link to the deployed application
+- A link to the corresponding GitHub repository
 
 ## Deployed Application
-The application will be deployed using GitHub Pages.
+Link to the deployed application: [Anastasiya's Portfolio](https://anryl050.github.io/REACTive-Portfolio/)
 
-Link to the deployed application:
+### View of the Application Pages
 
-## Demo Video
+#### Home Page
+![Home Page](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/d0c54f30-af07-42a5-9d68-bca907bbbb21)
+
+
+#### About Me Page
+![About Me](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/01523537-7566-4252-bff9-349c1b640d9e)
+
+
+#### Portfolio Page
+![Portfolio](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/0b0c87f3-c646-41a6-8c7f-741e8c44e09d)
+
+
+#### Contact Me Page
+![Contact Me](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/b87861cc-57fc-460a-89fb-c2b716e59fb5)
+
+
+#### Resume Page 
+![Resume](https://github.com/anryl050/REACTive-Portfolio/assets/118693401/4c2ce9ae-9c47-4d25-805b-cc5e85d1e2cd)
+
 
 
 ## Installation/Technical Requirements
 N/A
 
 ## Usage
+Click on the link included in the README.md file. 
 
+Once the application is opened, the user will be redireceted to the Home page automatically. For additional details, the user can click on the About Me, Portofolio, Contact and Resume pages. 
+
+The user is also able to click on the GitHUb, LinkedIn and Facebook links in the footer on each page. 
+NOTE: Due to privacy settings, the user will need to be actually search for the profiles directly in the LinkedIn and Facebook as the links will not lead directly to my profile. 
 
 ## Tests
-N/A
+Not tests are available for this application yet. 
+
 
 ## Contribution
-N/A
+Examples from the class material. 
 
 
 ## License
